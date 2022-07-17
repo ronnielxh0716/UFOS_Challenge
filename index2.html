@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="index.html">UFO Sightings</a>
+</nav>
+<div class="jumbotron">
+  <h1>The Truth Is Out There</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
+    </div>
+    <div class="col-md-8">
+      <p>
+        Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. Now, thanks
+        to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our
+        sky-searching with data analysis.<br><br>"The release of this analysis is well-timed: It coincides with the
+        celebration of World UFO Day, which is a moment for ufologists around the world to connect, relax, and sample a
+        range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings.
+        "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely helpful for us in
+        our search for aliens—and in helping us celebrate the work that has already been done, such as this data
+        visualization project, which will help us raise awareness of the ubiquity of sightings!"<br><br>Not everyone is
+        ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to
+        go on record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they
+        certainly would like to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA)
+        community engagement initiative she founded and funds.<br><br>So what do YOU think? Are we alone in the
+        universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the data yourself, and
+        let us know what you see.
+
+
+      </p>
+    </div>
+  </div>
+</div>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>UFO Info</title>
+</head>
+
+<body class="text-white bg-dark">
+
+  <div class="text-white container-fluid p-5">
+
+
+    <div class="text-white banner mt-4">
+      <h1 class="text-white display-2 text-center bg-dark p-4 mt-4 border rounded shadow">UFO Info</h1>
+    </div>
+
+    <div class="text-white row mt-4">
+      <div class="text-white col-md-2 text-center border border-dark bg-dark p-0 overflow-hidden">
+          <input class="ps-0 text-center" id="datetime" type="text" placeholder="date ex. 1/3/2010">
+          <input class="ps-0 text-center" id="city" type="text" placeholder="City ex. willow">
+          <input class="ps-0 text-center" id="state" type="text" placeholder="State ex. ca">
+          <input class="ps-0 text-center" id="country" type="text" placeholder="Country ex. us">
+          <input class="ps-0 text-center" id="shape" type="text" placeholder="Shape ex. circle">
+        <button class="text-white btn btn-sm btn-primary mt-2 m-auto mb-4">Clear Filter</button>
+      </div>
+
+      <div class="text-white col-md-10">
+        <table class="text-white table table-stripped">
+          <thead>
+            <th>datetime</th>
+            <th>city</th>
+            <th>state</th>
+            <th>country</th>
+            <th>shape</th>
+            <th>durationMinutes</th>
+            <th>comments</th>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- src contains the path to the files -->
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app2.js"></script>
+
+</body>
+
+</html>
